@@ -9,47 +9,65 @@ function sumar()
 	var NumeroUno;
 	var NumeroDos;
 
+	numeroUno = txtIdNumeroUno.value;
+	numeroDos = txtIdNumeroDos.value;
+
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
-	suma = numeroUno + numeroDos;
+	sumar = numeroUno + numeroDos;
 
 	alert("El resultado es " + sumar);	
 }
 
 function restar()
 {
-	var resta;
+	var restar;
 	var NumeroUno;
 	var NumeroDos;
+
+	numeroUno = txtIdNumeroUno.value;
+	numeroDos = txtIdNumeroDos.value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
-	alert("la resta es"+ restar);
+	restar = numeroUno - numeroDos;
+
+	alert("la resta es " + restar);
 }
 
 function multiplicar()
 { 
-	var multiplicacion;
+	var multiplicar;
 	var NumeroUno;
 	var NumeroDos;
+
+	numeroUno = txtIdNumeroUno.value;
+	numeroDos = txtIdNumeroDos.value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
-	alert("El resultado de la mutiplicacion es "+ multiplicar);
+	multiplicar = numeroUno * numeroDos;
+
+	alert("El resultado de la mutiplicacion es " + multiplicar);
 }
 
 function dividir()
 {
-	var division;
+	var dividir;
 	var NumeroUno;
 	var NumeroDos;
+
+	numeroUno = txtIdNumeroUno.value;
+	numeroDos = txtIdNumeroDos.value;
 
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 
-	alert("la division es "+ division);	
+	dividir = numeroUno / numeroDos;
+
+	alert("la division es " + dividir);	
 }
 
