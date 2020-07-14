@@ -1,5 +1,6 @@
 /*Enunciado:
-Al presionar el botón 'Mostrar'debemos lograr tomar un dato por '=prompt()'
+Al presionar el botón 'Mostrar'debemos lograr tomar un dato 
+por '=prompt()'
 y luego mostrarlo por 'alert()'.
 */
 
@@ -17,9 +18,11 @@ function mostrar() {
 	// nombre = true; // boolean
 	// nombre = null; // null
 
-	nombre = prompt("Ingrese nombre");
-	alert = ("nombre");
+	var dato;
 
+	dato = prompt ("Ingrese un dato");
 	
+	alert(dato);
+
 }
 
