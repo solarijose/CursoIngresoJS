@@ -6,5 +6,14 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
-	alert("ok");
+	var Sueldo;
+	var Resultado;
+	var Aumento;
+
+	
+
+
+
+
+	alert("Mostrar aumento "+ Aumento );
 }
