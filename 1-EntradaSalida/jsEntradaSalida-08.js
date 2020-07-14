@@ -11,8 +11,8 @@ function SacarResto()
 	var NumeroDivisor;
 	var resultado;
 
-	NumeroDividendo =txtIdNumeroDividendo.value;
-	NumeroDivisor =txtIdNumeroDivisor.value;
+	NumeroDividendo = txtIdNumeroDividendo.value;
+	NumeroDivisor = txtIdNumeroDivisor.value;
 
 	NumeroDividendo = parseInt(NumeroDividendo);
 	NumeroDivisor =	parseInt(NumeroDivisor);
