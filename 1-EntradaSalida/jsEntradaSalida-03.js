@@ -7,7 +7,7 @@ function mostrar()
 	
 	//dato = dato por ID.Value
 
-	dato = prompt ("Ingrese su nombre")
+	dato = prompt ("Ingrese su nombre");
 
 	txtIdNombre.value = dato;
 
