@@ -10,37 +10,52 @@ function Sumar ()
     var PrecioDos;
     var PrecioTres;
     var Sumar;
+
     //value
     PrecioUno = txtIdPrecioUno.value;
     PrecioDos = txtIdPrecioDos.value;
     PrecioTres = txtIdPrecioTres.value;
+    
     //parseInt
     PrecioUno = parseFloat(PrecioUno);
     PrecioDos = parseFloat(PrecioDos);
     PrecioTres = parseFloat(PrecioTres);
+    
     //sumatoria
     Sumar = PrecioUno + PrecioDos + PrecioTres;
-    //
-    alert ("La suma de los 3 precios es "+ Sumar);
+    alert ("La suma de los 3 Productos es "+ Sumar);
 	
 }
 function Promedio () 
 {
-    //Calcular el promedio
+   //B.	Ingresar tres precios de productos y mostrar el promedio de los mismos.
     
-    var PrecioUno;
-    var PrecioDos;
-    var PrecioTres;
-    var Promedio;
+   //Variables
+    var precioPinturaNegra;
+    var precioPinturaBlanca;
+    var precioPinturaGris;
+    var totalPrecios;
+    var totalProductos;
+    var promedio;
 
-    PrecioUno = parseFloat(PrecioUno);
-    PrecioDos = parseFloat(PrecioDos);
-    PrecioTres = parseFloat(PrecioTres);
-
-    var Promedio = (parseFloat(PrecioUno)+ parseFloat(PrecioDos)+ parseFloat(PrecioTres))/3;
+    //Precios
     
+    precioPinturaNegra = txtIdPrecioUno.value;
+    precioPinturaNegra = parseInt(precioPinturaNegra);
 
-    alert ("Su promedio es " +Promedio);
+    precioPinturaBlanca = txtIdPrecioDos.value;
+    precioPinturaBlanca = parseInt(precioPinturaBlanca);
+
+    precioPinturaGris = txtIdPrecioTres.value;
+    precioPinturaGris = parseInt(precioPinturaGris);
+
+    totalPrecios = precioPinturaNegra + precioPinturaBlanca + precioPinturaGris;
+
+    totalProductos = 3;
+    
+    promedio = totalPrecios / totalProductos;
+
+    alert ("Su promedio es " + promedio);
 
 }
 function PrecioFinal () 
