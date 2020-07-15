@@ -9,7 +9,7 @@ function SacarResto()
 {
 	var NumeroDividendo;
 	var NumeroDivisor;
-	var resultado;
+	var SacarResto;
 
 	NumeroDividendo = txtIdNumeroDividendo.value;
 	NumeroDivisor = txtIdNumeroDivisor.value;
@@ -17,7 +17,7 @@ function SacarResto()
 	NumeroDividendo = parseInt(NumeroDividendo);
 	NumeroDivisor =	parseInt(NumeroDivisor);
 
-	resultado = NumeroDividendo % NumeroDivisor;
+	SacarResto = NumeroDividendo % NumeroDivisor;
 
-	alert("El es "+ resultado);
+	alert("El resto es "+ SacarResto);
 }
