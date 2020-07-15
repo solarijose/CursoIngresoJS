@@ -11,9 +11,10 @@ function mostrarAumento()
 	var Aumento;
 
 	Sueldo = txtIdSueldo.value;
-	Resultado =txtIdResultado.value;
 
+	Sueldo = parseInt(Sueldo)
 
+	txtIdResultado
 
 
 	alert("Mostrar aumento "+ Aumento );
