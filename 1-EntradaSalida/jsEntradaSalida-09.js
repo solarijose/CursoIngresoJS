@@ -10,7 +10,8 @@ function mostrarAumento()
 	var Resultado;
 	var Aumento;
 
-	
+	Sueldo = txtIdSueldo.value;
+	Resultado =txtIdResultado.value;
 
 
 
