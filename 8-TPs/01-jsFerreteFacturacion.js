@@ -58,10 +58,33 @@ function Promedio ()
     alert ("Su promedio es " + promedio);
 
 }
+
 function PrecioFinal () 
+
 {
     
-    
+    //C.ingresar tres precios de productos  y mostrar precio final (más IVA 21%).
+
+     // Variables
+
+     var ClavosLargos
+     var ClavosMedios
+     var ClavosCortos
+     var preciofinal
+ 
+     ClavosLargos = txtIdPrecioUno.value;
+     ClavosLargos = parseInt(ClavosLargos);
+     ClavosMedios = txtIdPrecioDos.value;
+     ClavosMedios = parseInt(ClavosMedios);
+     ClavosCortos = txtIdPrecioTres.value;
+     ClavosCortos = parseInt(ClavosCortos);
+ 
+     
+     
+     preciofinal = ClavosLargos + ClavosMedios + ClavosCortos + 1*21;
+ 
+     alert("El precio final + iva es " + preciofinal);
+ 
 
 
 
