@@ -1,5 +1,7 @@
 function mostrar()
-{
+{	
+
+	//Al ingresar una edad que sea igual a 15, mostrar el mensaje "niña bonita".
 	//tomo la edad  
 	
 	var edad;
