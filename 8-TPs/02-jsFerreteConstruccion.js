@@ -44,15 +44,31 @@ function Circulo ()
     Radio = parseInt(Radio)
     Circunferencia = parseInt(Circunferencia)
     Circunferencia = 3 * Math.PI * Radio;
+    Circunferencia = Circunferencia.toFixed(2);
     CirculoAlambre = Circunferencia * 3;
     
     alert(CirculoAlambre);
     
 }
 
+/*C.
+Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de cal,
+debemos mostrar cuantas bolsas se necesitan de cada uno para las medidas que nos ingresen.
+*/
 
 function Materiales () 
 {
+
+    var cemento;
+    var cal;
+    var bolsas;
+    var contrapiso;
+
+    cal = parseInt(cal);
+    bolsas = parseInt(bolsas);
+
+
+
 
 
 	
