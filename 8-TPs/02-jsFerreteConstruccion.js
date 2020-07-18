@@ -54,23 +54,36 @@ function Circulo ()
 }
 
 /*C.
-Para hacer un contrapiso de 1m x 1m se necesitan 2 bolsas de cemento y 3 de cal,
-debemos mostrar cuantas bolsas se necesitan de cada uno para las medidas que nos ingresen.
+Para hacer un contrapiso de 1m x 1m 
+se necesitan 2 bolsas de cemento y 3 de cal,
+debemos mostrar cuantas bolsas se necesitan de cada uno 
+para las medidas que nos ingresen.
 */
 
 function Materiales () 
 {
     
-    var cemento;
-    var cal;
-    var bolsas;
-    var contrapiso;
-    var rectangular;
+    var largo;
+    var ancho;
+    var bolsasCemento;
+    var bolsasCal;
+    var TotalBolsasCemento;
+    var TotalBolsasCal;
+    var metrosCuadrados;
 
-    cal = parseInt(cal);
-    cemento = parseInt(cemento);
-    bolsas = parseInt(bolsas);
+    largo = txtIdLargo.value;
+    largo = parseInt(largo)
+    ancho = txtIdAncho.value;
+    ancho = parseInt(ancho);
 
+    bolsasCemento = 2;
+    bolsasCal = 3;
+
+    metrosCuadrados = largo * ancho;
+    TotalBolsasCemento = metrosCuadrados * bolsasCemento;
+    TotalBolsasCal = metrosCuadrados * bolsasCal;
+
+    alert ("Para los "+ metrosCuadrados +" mts2 "+ TotalBolsasCemento +" Bolsas de Cemento y "+ TotalBolsasCal+ " Bolsas de Cal " );
 
 
 
