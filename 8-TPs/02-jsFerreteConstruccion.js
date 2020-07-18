@@ -38,16 +38,18 @@ function Circulo ()
 {
     var Circunferencia;
     var Radio;
-    var CirculoAlambre;
+    var metrosTotales;
+    var hilosAlambre;
 
+    hilosAlambre = 3;
     Radio = txtIdRadio.value;
     Radio = parseInt(Radio)
     Circunferencia = parseInt(Circunferencia)
     Circunferencia = 3 * Math.PI * Radio;
     Circunferencia = Circunferencia.toFixed(2);
-    CirculoAlambre = Circunferencia * 3;
+    metrosTotales = Circunferencia * hilosAlambre;
     
-    alert(CirculoAlambre);
+    alert("La cantidad de alambre a utilizar es "+ metrosTotales + " mts");
     
 }
 
