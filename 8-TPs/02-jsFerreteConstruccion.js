@@ -58,14 +58,18 @@ debemos mostrar cuantas bolsas se necesitan de cada uno para las medidas que nos
 
 function Materiales () 
 {
-
+    
     var cemento;
     var cal;
     var bolsas;
     var contrapiso;
+    var rectangular;
 
     cal = parseInt(cal);
+    cemento = parseInt(cemento);
     bolsas = parseInt(bolsas);
+
+
 
 
 
