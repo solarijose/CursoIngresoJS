@@ -8,7 +8,6 @@ function FahrenheitCentigrados ()
 {
     
     var farenheit;
-    var temperatura;
     var centígrados;
 
     farenheit = txtIdTemperatura.value;
@@ -24,13 +23,22 @@ function FahrenheitCentigrados ()
 /*
 B.	Al ingresar una temperatura en Centígrados debemos
  mostrar la temperatura en Fahrenheit (ej.: "0  centígrados son 32 Fahrenheit ").
-
-function CentigradosFahrenheit () 
+ 
 */
 
+function CentigradosFahrenheit ()
 {
     
+    var centígrados;
+    var fahrenheit;
+
+    centígrados = txtIdTemperatura.value;
+    centígrados = parseInt(centígrados);
     
-    alert ();
+    //(0 °C × 9/5) + 32 = 32 °F
+
+    farenheit = (centígrados * 9 / 5) + 32; 
+    
+    alert (centígrados +" ° centigrados son " + farenheit + " Farenheit ");
 
 }
