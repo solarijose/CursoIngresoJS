@@ -1,6 +1,7 @@
 function mostrar()
 {
-	/*Al ingresar una edad debemos informar si la persona es mayor de edad,
+	/*Al ingresar una edad debemos informar 
+	si la persona es mayor de edad,
 	sino informar que es un menor de edad.
 	tomo la edad */ 
 
@@ -14,9 +15,9 @@ function mostrar()
 	
 	// declaro condicion
 	if (edad>17)
-	alert("La persona es mayor de edad");	
+	alert("La persona es mayor de edad");
 	
-		else if (edad<17)
+		else if (edad<17);
 	alert("La persona es menor de edad");
 
 }//FIN DE LA FUNCIÓN
