@@ -11,14 +11,13 @@ function mostrar()
 	edad = parseInt(edad);
 
 	// condicion IF
-	if(edad > 12)
+	if(edad > 12);
 
 	{
-		if(edad < 18)
-
-		{
-			alert("Usted es adolecente")
-		}
+		if(edad < 18);
+		
+		alert("Usted es adolecente");
+		
 
 	}
 	
