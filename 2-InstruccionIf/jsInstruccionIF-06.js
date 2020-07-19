@@ -36,8 +36,6 @@ function mostrar()
 			alert("La persona es un niño")
 		}
 
-
-
 	}
 
 
