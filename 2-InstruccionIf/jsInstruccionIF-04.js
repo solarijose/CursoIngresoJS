@@ -17,7 +17,6 @@ function mostrar()
 	if(edad >12 && edad <18 )
 
 	{
-
 		alert("Usted es adolecente");
 	}
 	
