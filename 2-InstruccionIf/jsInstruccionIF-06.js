@@ -25,11 +25,11 @@ function mostrar()
 		{
 			alert("La persona es adulta");
 		}	
-		else if (edad >13)		
+		else if (edad >=13)		
 		{
 			alert("La persona es adolecente");
 		}
-		else if(edad <13)
+		else if (edad <=12)
 		{
 			alert("La persona es un niño")
 		}
