@@ -18,26 +18,21 @@ function mostrar()
 
 	//condicion
 
-	if (edad);
-
-	{
-		if (edad >17)
+	
+		if (edad >17) //SI Edad Mayor o Igual a 17, informar por medio de alerta.
 		{
 			alert("La persona es adulta");
 		}	
-		else if (edad >=13)		
+		else // Si la funcion No es mayor
 		{
-			alert("La persona es adolecente");
+			if (edad >=13) // Si es mayor o igual a 13, informar por medio de alerta.
+			{
+				alert("La persona es adolecente");
+			}
+			else // Si no, informar por medio de alerta.
+			{
+				alert("La persona es un niño")
+			}
 		}
-		else if (edad <=12)
-		{
-			alert("La persona es un niño")
-		}
-
-	}
-
-
-
-
 
 }//FIN DE LA FUNCIÓN
