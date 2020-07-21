@@ -12,12 +12,11 @@ function mostrar()
 	edad = txtIdEdad.value;
 	edad = parseInt(edad);
 
-	estadoCivil = estadoCivil.value;
-	estadoCivil = parseInt(estadoCivil);
+	EstadoCivil = estadoCivil.value;
 
 	
 
-	if(edad >=18 && estadoCivil !== "Soltero")
+	if(edad <=18 && EstadoCivil !== "Soltero")
 	{
 		alert("Es soltero y no es menor");
 	}
