@@ -24,6 +24,5 @@ function mostrar()
 	{
 		alert("Es soltero y no es menor")
 	}
-	
 
 }//FIN DE LA FUNCIÓN

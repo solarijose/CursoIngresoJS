@@ -6,5 +6,4 @@ function mostrar()
 
 	alert(aleatorio);
 
-
 }//FIN DE LA FUNCIÓN
