@@ -16,13 +16,13 @@ function mostrar()
 
 	EstadoCivil = estadoCivil.value;
 	
-
-	if(edad <=17 && EstadoCivil != "Soltero")
+	(edad <=17 && EstadoCivil == "Soltero")
+	
+	if (edad >= 18 && EstadoCivil == "Soltero")
 	{
+		alert("Es soltero y no es menor");
 	}
-	else if (edad >= 17 && EstadoCivil == "Soltero")
-	{
-		alert("Es soltero y no es menor")
-	}	
+	
+		
 
 }//FIN DE LA FUNCIÓN
