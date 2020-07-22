@@ -20,9 +20,12 @@ se debe sumar un 10% de ingresos brutos en informar del impuesto con el siguient
  */
 function CalcularPrecio () 
 
-var cantidadLamparas;
-var Condescuento;
-var Sindescuento;
+var precioLampara;
+var descuento;
+var PrecioDescuento;
+var PrecioFinal;
+var marca;
+var impuesto;
 
 cantidad= txtIdCantidad.value;
 cantidad = parseInt(cantidad);
@@ -30,10 +33,26 @@ cantidad = parseInt(cantidad);
 descuento = txtIdprecioDescuento.value;
 descuento = parseInt(descuento);
 
-Sindescuento = cantidadLamparas * 35;
-Condescuento = cantidadLamparas  *35 >6 * 50/100;
+precioLampara = 35;
+marca = Marca.value;
 
-alert ( )
+//Si compra 6 o más  lamparitas bajo consumo tiene un descuento del 50%
+
+if( cantidad >=6)
 {    
+    cantidad = precioLampara * cantidad;
+    PrecioDescuento = cantidad * 50/100;
+    PrecioFinal = cantidad - PrecioDescuento;
+}
+
+else //CONDICIONALES
+{
+
+
+
+}
+
+if ()
+{
 
 }
