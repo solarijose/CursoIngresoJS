@@ -10,18 +10,18 @@ function mostrar()
 	var NumeroAleatorio = Math.floor(Math.random() * 10 + 1);
 
 
-	if ( NumeroAleatorio >=9 && NumeroAleatorio <=10)
+	if ( NumeroAleatorio >9)
 	
 	{
 		alert ("EXCELENTE");
 	}	
 
-		if (NumeroAleatorio >=4 && NumeroAleatorio <=9 )
+		if (NumeroAleatorio >4 )
 		{
 			alert("APROBO");
 		}
 	
-		else if (NumeroAleatorio >=1 && NumeroAleatorio <=3 )
+		else if ( )
 		{
 
 			alert("Vamos, la proxima se puede");
