@@ -4,9 +4,8 @@
  'Es muy pequeño para NO ser soltero.'
 */
 
-function mostrar()
-{
-	
+function mostrar() {
+
 	var edad;
 	var EstadoCivil;
 
@@ -15,7 +14,7 @@ function mostrar()
 
 	EstadoCivil = estadoCivil.value;
 
-	if (edad <=17 && EstadoCivil != "Soltero")
+	if (edad <= 17 && EstadoCivil != "Soltero") 
 	{
 		alert("Es muy pequeño para NO ser soltero");
 	}

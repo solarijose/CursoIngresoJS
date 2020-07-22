@@ -4,10 +4,9 @@ distinto a "Soltero", NO HACER NADA,
 pero si no es asi, y es soltero y no es menor, 
 mostrar el siguiente mensaje: 'Es soltero y no es menor. */
 
-function mostrar()
-{
+function mostrar() {
 
-	
+
 	var edad;
 	var EstadoCivil;
 
@@ -15,14 +14,14 @@ function mostrar()
 	edad = parseInt(edad);
 
 	EstadoCivil = estadoCivil.value;
-	
-	(edad <=17 && EstadoCivil == "Soltero")
-	
-	if (edad >= 18 && EstadoCivil == "Soltero")
+
+	(edad <= 17 && EstadoCivil == "Soltero")
+
+	if (edad >= 18 && EstadoCivil == "Soltero") 
 	{
 		alert("Es soltero y no es menor");
 	}
-	
-		
+
+
 
 }//FIN DE LA FUNCIÓN
