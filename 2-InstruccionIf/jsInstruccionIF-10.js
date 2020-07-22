@@ -7,15 +7,26 @@ function mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
 
-	var aleatorio = Math.floor(Math.random() * 10);
-	var Excelente;
-	var Aprobo;
-	var Desaprobo;
-
-	if (aleatorio + 9>=10)
+	var NumeroAleatorio = Math.floor(Math.random() * 10 + 1);
 
 
-	alert(aleatorio + Excelente +"EXCELENTE");
+	if ( NumeroAleatorio >=9 && NumeroAleatorio <=10)
+	
+	{
+		alert ("EXCELENTE");
+	}	
+
+		if (NumeroAleatorio >=4 && NumeroAleatorio <=9 )
+		{
+			alert("APROBO");
+		}
+	
+		else if (NumeroAleatorio >=1 && NumeroAleatorio <=3 )
+		{
+
+			alert("Vamos, la proxima se puede");
+		
+		}
 
 
 }//FIN DE LA FUNCIÓN
