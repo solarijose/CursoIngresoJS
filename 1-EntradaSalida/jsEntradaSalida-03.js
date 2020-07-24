@@ -1,6 +1,7 @@
 /*
-Debemos lograr tomar un dato por 'ID'
-y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
+al presionar el botón 'mostrar',
+Debemos lograr tomar un dato por ID.value
+y luego mostrarlo por 'alert()''*/
 function mostrar()
 {
 	var dato;
@@ -10,6 +11,8 @@ function mostrar()
 	dato = prompt ("Ingrese su nombre");
 
 	txtIdNombre.value = dato;
+	
+	alert(dato);
 
 }
 
