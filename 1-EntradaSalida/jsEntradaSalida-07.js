@@ -17,7 +17,7 @@ function sumar()
 
 	sumar = numeroUno + numeroDos;
 
-	alert("El resultado es " + sumar);	
+	alert("El resultado es de la suma es " + sumar);	
 }
 
 function restar()
@@ -34,7 +34,7 @@ function restar()
 
 	restar = numeroUno - numeroDos;
 
-	alert("la resta es " + restar);
+	alert("El resultado de la resta es " + restar);
 }
 
 function multiplicar()
@@ -68,6 +68,6 @@ function dividir()
 
 	dividir = numeroUno / numeroDos;
 
-	alert("la division es " + dividir);	
+	alert("El resultado de la division es " + dividir);	
 }
 
