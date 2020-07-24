@@ -1,4 +1,4 @@
-/*
+/* SOLARI JOSÉ LUIS
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT" ej.: "la suma es 750"*/

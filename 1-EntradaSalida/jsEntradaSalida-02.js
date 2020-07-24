@@ -1,4 +1,5 @@
-/*Enunciado:
+/* SOLARI JOSÉ LUIS 
+Enunciado:
 Al presionar el botón 'Mostrar'debemos lograr tomar un dato 
 por '=prompt()'
 y luego mostrarlo por 'alert()'.
