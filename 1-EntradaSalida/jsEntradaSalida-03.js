@@ -5,13 +5,11 @@ y luego mostrarlo por 'alert()''*/
 function mostrar()
 
 {
-
     var dato;
 
     dato = txtIdNombre.value;
 
     alert(dato);
-
 }
 
 
