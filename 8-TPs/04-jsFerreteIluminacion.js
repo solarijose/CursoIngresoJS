@@ -42,13 +42,16 @@ function CalcularPrecio()
     descuento = descuento * cantidadLamparas;
 
     //A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
-    if (cantidadLamparas >5 != "ArgentinaLuz")
+    if (cantidadLamparas >5 == "ArgentinaLuz" + descuento)
     {
         precioLamparas;
+        descuento = 0,5;
+        precioTotal;
     }
-    else
+    else (cantidadLamparas >3)
     {
-        descuento = 0,5; 
+        precioLamparas;
+        precioTotal; 
     }
     alert(precioTotal)
     
