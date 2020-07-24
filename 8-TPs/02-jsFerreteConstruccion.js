@@ -1,4 +1,5 @@
-/*2.Para el departamento de Construcción:
+/* SOLARI JOSÉ LUIS
+2.Para el departamento de Construcción:
 A.
 Mostrar la cantidad de alambre a comprar  si se ingresara el largo 
 y el ancho de un terreno rectangular y se debe alambra con tres hilos de alambre.

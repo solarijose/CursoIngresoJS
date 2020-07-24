@@ -20,7 +20,7 @@ function FahrenheitCentigrados ()
 
 }
 
-/*
+/*SOLARI JOSÉ LUIS
 B.	Al ingresar una temperatura en Centígrados debemos
  mostrar la temperatura en Fahrenheit (ej.: "0  centígrados son 32 Fahrenheit ").
  
