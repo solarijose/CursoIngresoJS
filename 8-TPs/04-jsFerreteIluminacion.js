@@ -16,13 +16,14 @@ E. Si el importe final con descuento suma más de $120 se debe sumar un 10%
  ”IIBB Usted pago X”, siendo X el impuesto que se pagó*/
 
 function CalcularPrecio()
+
 {
    //declaracion y asignacion de variables
     var precioLamparas = 35;
     var cantidadLamparas;
     var marcaLamparas;
     var descuento;
-    var precioTotal;
+    var importeFinal;
     var precioDescuento;
     var impuestos = 0.1;
 
@@ -76,22 +77,33 @@ function CalcularPrecio()
                 // D.compra 3 lamparitas"ArgentinaLuz" descuento del 15%,
                 // si es “FelipeLamparas” se hace un descuento del 10 % 
                 // y si es de otra marca un 5%.
-                if()
+                if(cantidadLamparas==3)
+                {
+                    if (marcaLamparas == "ArgentinaLuz")
+                    {
+                        descuento=0.15;
+                    }
+                    else if(marcaLamparas == "FelipeLamparas")
+                    {
+                        descuento=0.10;   
+                    }
+                    else
+                    {
+                        descuento=0.5;
+                    }
+                    
+
+                }
             }
         }
           
 
     }
-    
- 
-   
-
     // E. Si el importe final con descuento suma más de $120 se debe sumar un 10%
     // de ingresos brutos en informar del impuesto con el siguiente mensaje: 
     // ”IIBB Usted pago X”, siendo X el impuesto que se pagó
 
+    
 
-
-    // */   
 
 }
