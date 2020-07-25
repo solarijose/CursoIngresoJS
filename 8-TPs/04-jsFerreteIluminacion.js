@@ -91,14 +91,13 @@ function CalcularPrecio()
                 {
                     descuento= 0.10;
                 } 
-                else{
+                else
+                {
                     descuento= 0.5;
                 }
-                
-
-                
             }
         }
+
 
     }
 
