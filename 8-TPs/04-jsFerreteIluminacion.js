@@ -31,17 +31,17 @@ function CalcularPrecio()
     cantidadLamparas = txtIdCantidad.value;
     cantidadLamparas = parseInt(cantidadLamparas);
     marcaLamparas = Marca.value;
-    precioLampras =35;
-    
-    precioDescuento = txtIdprecioDescuento.value;
-    precioDescuento = parseInt(precioDescuento);
+    precioLampras=35;
 
     /*A- Si compra 6 o más lamparitas bajo consumo 
     tiene un descuento del 50%.*/
 
     if (cantidadLamparas >=6)
     {
-        descuento=0.5;
+        cantidadLamparas= cantidadLamparas * precioLampras;
+        precioDescuento= cantidadLamparas * 50/100;
+        importeFinal = cantidadLamparas - precioDescuento;
+        
     }
     /*B. Si compra 5 lamparitas bajo consumo marca "ArgentinaLuz" 
     se hace un descuento del 40 % 
@@ -52,11 +52,15 @@ function CalcularPrecio()
         {
             if (marcaLamparas == "ArgentinaLuz")
             {
-                descuento=0.4;
+                cantidadLamparas= cantidadLamparas * precioLampras;
+                precioDescuento= cantidadLamparas * 40/100;
+                importeFinal = precioDescuento - cantidadLamparas;
             }
             else
             {
-                descuento=0.3;
+                cantidadLamparas= cantidadLamparas * precioLampras;
+                precioDescuento= cantidadLamparas * 30/100;
+                importeFinal= cantidadLamparas - precioDescuento;
             }
         }
         /*C. Si compra 4 lamparitas bajo consumo marca "ArgentinaLuz" 
@@ -68,11 +72,15 @@ function CalcularPrecio()
             {
                 if (marcaLamparas == "ArgentinaLuz" || marcaLamparas == "FelipeLamparas")
                 {
-                    descuento = 0.25;
+                    cantidadLamparas= cantidadLamparas * precioLampras;
+                    precioDescuento= cantidadLamparas * 25/100;
+                    importeFinal= cantidadLamparas - precioDescuento;
                 }
                 else
                 {
-                    descuento= 0.20;
+                    cantidadLamparas= cantidadLamparas * precioLampras;
+                    precioDescuento= cantidadLamparas * 20/100
+                    importeFinal= cantidadLamparas -precioDescuento;
                 }
             }
 
@@ -85,15 +93,21 @@ function CalcularPrecio()
             {
                 if(marcaLamparas == "ArgentinaLuz")
                 {
-                    descuento= 0.15;
+                    cantidadLamparas= cantidadLamparas * precioLampras;
+                    precioDescuento= cantidadLamparas *15/100;
+                    importeFinal= cantidadLamparas - precioDescuento;
                 }
                 else if (marcaLamparas == "FelipeLamparas")
                 {
-                    descuento= 0.10;
+                    cantidadLamparas= cantidadLamparas * precioLampras;
+                    precioDescuento= cantidadLamparas * 10/100;
+                    importeFinal= cantidadLamparas - precioDescuento;
                 } 
                 else
                 {
-                    descuento= 0.5;
+                    cantidadLamparas= cantidadLamparas * precioLampras;
+                    precioDescuento= cantidadLamparas *5/100;
+                    importeFinal= cantidadLamparas - precioDescuento;
                 }
             }
         }
