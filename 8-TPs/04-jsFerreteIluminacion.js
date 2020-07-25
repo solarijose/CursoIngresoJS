@@ -23,13 +23,14 @@ function CalcularPrecio()
     var precioLampras;
     var cantidadLamparas;
     var marcaLamparas;
-    var descuento;
     var importeFinal;
     var precioDescuento;
     var impuestos;
+    var descuento;
 
     cantidadLamparas = txtIdCantidad.value;
     cantidadLamparas = parseInt(cantidadLamparas);
+    
     marcaLamparas = Marca.value;
     precioLampras=35;
 
@@ -89,26 +90,43 @@ function CalcularPrecio()
              el descuento es del 15%, si es “FelipeLamparas”
              se hace un descuento del 10 % y si es de otra marca un 5%.*/
             
-            else
-            {
-                if(marcaLamparas == "ArgentinaLuz")
+                else
+                {
+                if(cantidadLamparas == 3 && marcaLamparas == "ArgentinaLuz")
                 {
                     cantidadLamparas= cantidadLamparas * precioLampras;
                     precioDescuento= cantidadLamparas *15/100;
                     importeFinal= cantidadLamparas - precioDescuento;
+                    
                 }
-                else if (marcaLamparas == "FelipeLamparas")
+                else if (cantidadLamparas == 3 && marcaLamparas == "FelipeLamparas")
                 {
                     cantidadLamparas= cantidadLamparas * precioLampras;
                     precioDescuento= cantidadLamparas * 10/100;
                     importeFinal= cantidadLamparas - precioDescuento;
+                    
                 } 
                 else
                 {
                     cantidadLamparas= cantidadLamparas * precioLampras;
                     precioDescuento= cantidadLamparas *5/100;
                     importeFinal= cantidadLamparas - precioDescuento;
+                    
                 }
+                    /*E. Si el importe final con descuento suma más de $120 se debe sumar un 10%
+                     de ingresos brutos en informar del impuesto con el siguiente mensaje: 
+                     ”IIBB Usted pago X”, siendo X el impuesto que se pagó*/
+
+                     if(importeFinal>120)
+                    {
+                        impuestos= importeFinal *10/100;
+                        importeFinal= importeFinal + impuestos;
+                        alert("IIBB Usted pago "+ impuestos + " de impuesto.");
+                    }
+                    descuento=txtIdprecioDescuento.value =importeFinal;
+                    descuento=parseInt(descuento);
+
+                
             }
         }
 
