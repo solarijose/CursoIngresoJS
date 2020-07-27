@@ -24,12 +24,4 @@ function mostrar()
 			alert("Este mes tiene 31 días");
 	}
 
-	
-	
-//	alert(mesDelAño);
-	
-	
-
-
-
 }//FIN DE LA FUNCIÓN

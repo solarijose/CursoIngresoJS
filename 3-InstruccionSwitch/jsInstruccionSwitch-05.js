@@ -1,3 +1,6 @@
+//SOLARI JOSÉ LUIS
+
+
 function mostrar()
 {
 	//tomo la hora

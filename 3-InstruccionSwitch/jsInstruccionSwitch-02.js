@@ -1,3 +1,5 @@
+//SOLARI JOSÉ LUIS
+
 /*al seleccionar un mes informar.
 si estamos en Invierno: "Abrigate que hace frio."
 si aún no llego el Invierno: "Falta para el invierno."
@@ -28,10 +30,6 @@ function mostrar()
 
 
 	}
-
-	//alert(mesDelAño);
-
-
 
 
 }//FIN DE LA FUNCIÓN

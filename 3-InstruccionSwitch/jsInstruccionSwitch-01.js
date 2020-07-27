@@ -27,11 +27,5 @@ function mostrar()
 		alert("Felices fiesta!!!")
 		break;
 	}
-	//alert(mesDelAño);
-
-
-	
-
-
 
 }//FIN DE LA FUNCIÓN
