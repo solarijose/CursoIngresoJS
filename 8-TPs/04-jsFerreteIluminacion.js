@@ -31,7 +31,7 @@ function CalcularPrecio()
     marcaLamparas = Marca.value;
     precioLampras= 35;
 
-	if (cantidadLamparas >5) //A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
+	if (cantidadLamparas >6) //A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
 	{
 		cantidadLamparas = cantidadLamparas * precioLampras;
 		precioDescuento = cantidadLamparas * 0.5;
@@ -119,3 +119,16 @@ function CalcularPrecio()
 		descuento=txtIdprecioDescuento.value = importeFinal;
 
 }
+
+
+/*
+function CalcularPrecio()
+{
+
+
+
+
+}
+
+
+*/
