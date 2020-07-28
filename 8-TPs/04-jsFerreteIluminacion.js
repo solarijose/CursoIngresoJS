@@ -15,9 +15,9 @@ E. Si el importe final con descuento suma más de $120 se debe sumar un 10%
 de ingresos brutos en informar del impuesto con el siguiente mensaje: 
 ”IIBB Usted pago X”, siendo X el impuesto que se pagó*/
 
-function CalcularPrecio()
+/*function CalcularPrecio()
 
-/*
+
 {
 	var cantidadLamparas;
     var precioLampras;
@@ -121,4 +121,19 @@ function CalcularPrecio()
 		
 }
 */
+
+function CalcularPrecio()
+
+var cantidadLamparas;
+var precioLampras;
+var descuento;
+var precioDescuento;
+var importeFinal;
+var marcaLamparas;
+var impuestos;
+
+cantidadLamparas = txtIdCantidad.value;
+cantidadLamparas = parseInt(cantidadLamparas);
+marcaLamparas = Marca.value;
+precioLampras= 35;
 
