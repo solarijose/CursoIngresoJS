@@ -75,8 +75,13 @@ function mostrar()
 					case "Cordoba": //PUNTO D
 						descuento = 1;
 					case "Bariloche":
+						descuento= 1.1
+						break;
 					case "Cataratas":
 						descuento = 1.1;
+						break;
+					case "Mar del plata":
+						descuento= 1.1;
 						break;
 				}
 				break;
