@@ -33,54 +33,56 @@ function mostrar()
 	var descuento;
 	var estadiaPrecio;
 	var precioFinal
-
+	
 	estacionIngresada =txtIdEstacion.value;
 	destino =txtIdDestino.value;
-	
 
-	switch (estacionIngresada)
+	estadiaPrecio = 15000;
+
+	switch (estacionIngresada) //
 	{
-		case "Invierno":
+		case "Invierno": //PUNTO B
+			switch(destino)
+			{
+				case "Bariloche":
+					descuento = 1.2;
+				break;
+				case "Mar del plata":
+					descuento = 0.2;
+				case "Cataratas":
+				case "Cordoba":
+					descuento = 0.9;	
+					break;		
+			}
+		 break;
+		 case "Verano": //PUNTO C
 			switch(destino)
 			{
 				case "Bariloche":
 					descuento = 0.2;
 				break;
 				case "Mar del plata":
-					descuento = -0.2;
-				break;
-				default:	
-					descuento = -0.1;
+					descuento = 1.2;
+					case "Cataratas":
+					case "Cordoba":
+						descuento = 1.1;
+					break;
 			}
-		 break;
-		 case "Verano":
-			switch(destino)
-			{
-				case "Bariloche":
-					descuento = -0.2;
-				break;
-				case "Mar del plata":
-					descuento =  0.2;
-				break;
-				default:
-					descuento =  0.1;
-			}
-			break;
-			default:
+			case"Otoño":
+			case"Primavera":
 				switch (destino)
 				{
-					case "Cordoba":
-						descuento = 0;
-					break;
-					default:
-						descuento = 0.1;
+					case "Cordoba": //PUNTO D
+						descuento = 1;
+					case "Bariloche":
+					case "Cataratas":
+						descuento = 1.1;
+						break;
 				}
-			break;
+				break;
 
 	}
-
-	estadiaPrecio = 15000;
-	precioFinal = estadiaPrecio + estadiaPrecio * descuento;
+	precioFinal = estadiaPrecio * descuento;
 	alert(precioFinal);
 
 }
