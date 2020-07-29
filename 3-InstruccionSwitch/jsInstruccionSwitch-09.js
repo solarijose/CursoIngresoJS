@@ -62,7 +62,7 @@ function mostrar()
 					descuento = 0.2;
 				break;
 				case "Mar del plata":
-					descuento = 1.2;
+					descuento = 0.8;
 					case "Cataratas":
 					case "Cordoba":
 						descuento = 1.1;
