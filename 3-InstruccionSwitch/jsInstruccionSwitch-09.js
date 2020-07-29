@@ -51,7 +51,7 @@ function mostrar()
 					descuento = 0.2;
 				case "Cataratas":
 				case "Cordoba":
-					descuento = 0.9;	
+					descuento = 0.9;//saco el porcentaje de 10%
 					break;		
 			}
 		 break;
