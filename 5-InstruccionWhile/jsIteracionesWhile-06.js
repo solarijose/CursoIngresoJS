@@ -11,16 +11,15 @@ function mostrar()
 	contador=0;
 	acumulador=0;
 	
-	numeroIngresado = prompt("Ingrese valores a sumar");
 	numeroIngresado = parseInt(numeroIngresado);
 
-	while(contador <4)
+	while(contador <5)
 		{	
-			numeroIngresado =prompt("Ingrese 5 valores a sumar");
-			numeroIngresado = parseInt(numeroIngresado);
+			numeroIngresado =prompt("Ingrese 1 numero");
+			
 
-			contador= contador +1;
-			acumulador = acumulador + numeroIngresado;
+
+			contador++;
 		}
 
 	txtIdSuma.value=acumulador;

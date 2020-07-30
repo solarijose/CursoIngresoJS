@@ -12,10 +12,10 @@ function mostrar()
 
 	while(numeroIngresado<0 || numeroIngresado>9)
 	{
-		numeroIngresado = prompt("Error re ingrese un numero de (0-9)");
-		
+		numeroIngresado = prompt("Error Reingrese un número entre (0-9).");
+		numeroIngresado = parseInt(numeroIngresado);
 	}
-	txtIdNumero.value=(numeroIngresado)
+	txtIdNumero.value= numeroIngresado;
 	
 	
 	

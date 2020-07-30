@@ -6,10 +6,10 @@ function mostrar()
 {
 	var i= 10;
 
-	while(i > 0)
+	while(i > 0) // variable mayor a 0
 	{
 		
-		alert(i--);
+		alert(i--); //i= i - 1
 	}
 
 

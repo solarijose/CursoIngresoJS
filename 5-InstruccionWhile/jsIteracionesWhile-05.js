@@ -3,15 +3,15 @@ Al presionar el botón pedir un sexo
 'f' para femenino, 'm' para masculino.*/
 function mostrar()
 {
-	var sexoIngresado; // se declara variables
+	var sexo; // se declara variables
 
-	sexoIngresado = prompt("ingrese f ó m .");
+	sexo = prompt("ingrese f ó m ."); // Se toma el sexo ingresado
 
-	while(sexoIngresado != "f" && sexoIngresado != "m" )// != igual o diferente
+	while(sexo != "f" && sexo != "m" )// != igual o diferente &&= la condicion tiene que ser V-V
 	{
-		sexoIngresado = prompt("ingrese f o m"); // ingrese F o M
+		sexo = prompt("ingrese f o m"); // ingrese F o M
 	}
 	
-	txtIdSexo.value=sexoIngresado; //El sexo valido
+	txtIdSexo.value=sexo; //Mostrar el sexo ingresado
 
 }//FIN DE LA FUNCIÓN
