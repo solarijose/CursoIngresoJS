@@ -11,6 +11,7 @@ function mostrar()
 	{
 		sexoIngresado = prompt("ingrese f o m"); // ingrese F o M
 	}
+	
 	txtIdSexo.value=sexoIngresado; //El sexo valido
 
 }//FIN DE LA FUNCIÓN
