@@ -1,3 +1,4 @@
+//SOLARI JOSÉ LUIS
 // Al ingresar una edad solo debemos informar si la persona NO es adolescente
 
 function mostrar() {

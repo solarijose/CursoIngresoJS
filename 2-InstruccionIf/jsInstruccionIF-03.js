@@ -1,3 +1,4 @@
+//SOLARI JOSÉ LUIS
 function mostrar()
 {
 	/*Al ingresar una edad debemos informar 
