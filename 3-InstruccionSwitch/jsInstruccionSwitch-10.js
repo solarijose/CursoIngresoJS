@@ -1,10 +1,11 @@
 /*SOLARI JOSÉ LUIS
 una agencia de viajes nos piden informar si hacemos viajes a lugares 
-según la estación del año estemos, informar si "Se viaje" o "No se viaje" a ese lugar
+según la estación del año estemos, 
+informar si "Se viaje" o "No se viaje" a ese lugar
 
 en Invierno: Solo Bariloche informa "se viaje" 
 los demas destinos "No se viaje"
-en Verano: Se viaje a Mar del plata y Cataratas solamente
+en Verano: Se viaj a Mar del plata y Cataratas solamente
 en Otoño: Se viaje a todos los destinos.
 primavera: solo no se viaje a Bariloche*/
 
@@ -52,6 +53,7 @@ function mostrar()
 		case "Otoño"://Otoño: Se viaje a todos los destinos.	
 			viaje= "Se viaja";
 			break;
+			
 		case "Primavera"://primavera: solo no se viaje a Bariloche
 		switch(destinoIngresado)
 		{
