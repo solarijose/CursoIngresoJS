@@ -4,13 +4,11 @@ Al presionar el botón 'Mostrar'debemos lograr tomar un dato
 por '=prompt()'
 y luego mostrarlo por 'alert()'.
 */
+var nombre;
 
+var nombreCompleto;
 
 function mostrar() {
-
-	var nombre; // camel case
-
-	var nombreCompleto;
 
 	// var nombreCompleto; // undefined
 
