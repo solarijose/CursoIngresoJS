@@ -1,3 +1,4 @@
+//SOLARI JOSÉ LUIS
 function mostrar()
 {
 	var destinoIngresado =txtIdDestino.value;
