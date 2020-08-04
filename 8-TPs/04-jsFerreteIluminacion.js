@@ -23,11 +23,13 @@ function CalcularPrecio()
     var precioDescuento;
     var importeFinal;
     var marcaLamparas;
-    var impuestos;
+	var impuestos;
+	
     cantidadLamparas = txtIdCantidad.value;
     cantidadLamparas = parseInt(cantidadLamparas);
     marcaLamparas = Marca.value;
-    precioLampras= 35;
+	precioLampras= 35;
+	
 	if (cantidadLamparas >5) //A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
 	{
 		cantidadLamparas = cantidadLamparas * precioLampras;
@@ -111,20 +113,3 @@ function CalcularPrecio()
 		descuento=txtIdprecioDescuento.value = importeFinal;
 		
 }
-
-
-/* 
-function CalcularPrecio()
-
-var cantidadLamparas;
-var precioLampras;
-var descuento;
-var descuento;
-var importeFinal;
-var marcaLamparas;
-var impuestos;
-
-cantidadLamparas = txtIdCantidad.value;
-cantidadLamparas = parseInt(cantidadLamparas);
-marcaLamparas = Marca.value;
-precioLampras= 35; */
