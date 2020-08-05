@@ -24,7 +24,7 @@ function mostrar()
 	}
 	else
 	{
-		alert("El numero no es Primo")
+		alert("El numero No es Primo")
 	}
 
 
