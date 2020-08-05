@@ -5,19 +5,29 @@ desde el 1 al número ingresado, y mostrar la cantidad de numeros pares encontra
 
 function mostrar()
 {
-	var numeroIngresado; // Declaro variable numero ingresado
-	numeroIngresado = prompt("Ingresar un numero"); // tomo el numero ingresado
+	//Declaro variables
+	var numeroIngresado;
+	var contadorPares;
+	var contadorPares = 0;
+
+	//Pido ingresar un numero
+	numeroIngresado = prompt("Ingresar un numero");
+	numeroIngresado = parseInt(numeroIngresado);
 	
 
-	for( var i=0; i<=numeroIngresado; i++) // declaro 1)variable i ; i es menor o igual a numeroIngresado; i+1(aumenta)
+
+	// declaro variable i ; i es menor o igual a numeroIngresado; i+1(aumenta)
+	for( var i=1; i<=numeroIngresado; i++)
 	{
-		if((i % 2) == 0) // (i %porcentaja de 2) igual 0
+		// Si encuentro un valor par lo cuento y muestro.
+		if(i % 2 == 0)
 		{
-			alert(i); // repeti valor I hasta llegar al numero PAR INGRESADO
+			contadorPares++;
+			alert(i);
 		}
-
 	}
-
+	alert("Pares encontrados "+contadorPares);
+	
 	
 
 

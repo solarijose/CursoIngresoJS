@@ -2,29 +2,33 @@
 
 Repeticiones con funcionalidad
 
-al presionar el botón pedir un número. mostrar 
-los numeros divisores desde el 1 al número ingresado,
- y mostrar la cantidad de numeros divisores encontrados.
+al presionar el botón pedir un número. 
+mostrar los numeros divisores desde el 1 al número ingresado,
+y mostrar la cantidad de numeros divisores encontrados.
 */
 
 
 
 function mostrar()
 {
+	//declaro variables
 	var numeroIngresado;
-	numeroIngresado = prompt("Ingresar un numero");
+	var contadorDivisores;
+	contadorDivisores = 0;
 
-	// se declara variable 2, variable es menor a numero ingresado /2, variable +1
-	for(var i=2;i <numeroIngresado/2;i++) 
-	
+	//condiciones
+	numeroIngresado = prompt("Ingresar un numero");
+	numeroIngresado = parseInt(numeroIngresado);
+
+	for(var i = 1; i <= numeroIngresado; i++)
+
+	if(numeroIngresado % i == 0)
 	{
-		if(numeroIngresado % i === 0) // numero ingresado Porcentaje de 2 igual a 0
-		{
-			alert(i); // mostrar numeros divisores.
-		}
+		contadorDivisores++;
+		alert(i);
 
 	}
-	
+	alert("Divisores encontrados "+contadorDivisores);
 
 
 }//FIN DE LA FUNCIÓN
