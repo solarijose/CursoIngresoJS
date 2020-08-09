@@ -69,7 +69,8 @@ function mostrar(){
 
       acumuladorBolas = acumuladorBolas + cantidadDeBolsas;
 
-      switch(tipo){
+      switch(tipo)
+      {
           case 'arena':
             acumArena += cantidadDeBolsas;
           break;
@@ -98,14 +99,16 @@ function mostrar(){
 
   var descuento;
 
-  if(acumuladorBolas > 10 && acumuladorBolas <= 30){
+  if(acumuladorBolas > 10 && acumuladorBolas <= 30)
+  {
 
       //calcular 15% de descuento sobre el total
       descuento = (15*total)/100;
       alert("El descuento del 15% es de "+ descuento+" sobre el total de "+total);
   }
 
-  if(acumuladorBolas > 30){
+  if(acumuladorBolas > 30)
+  {
 
       //calcular 25% de descuento sobre el total
       descuento = (25*total)/100;
